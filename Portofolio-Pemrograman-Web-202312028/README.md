@@ -251,7 +251,7 @@ Solusi:
 ## 📞 Kontak
 
 👤 **Nama**: Elina Nurhaliza
-📧 **Email**: elinanurhaliza50@example.com
+📧 **Email**: elinanurhaliza50@gmail.com
 🎓 **NIM**: 202312028
 🏫 **Universitas**: STITEK BONTANG
 🐙 **GitHub**: https://github.com/atlantisforyou
