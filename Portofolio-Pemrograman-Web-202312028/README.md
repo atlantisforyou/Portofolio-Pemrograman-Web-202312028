@@ -1,323 +1,303 @@
-# 🌐 Portfolio Pemrograman Web
-**Mata Kuliah: Pemrograman Web**  
-**NIM: 202312028**  
-**Nama: Elina Nurhaliza**  
-**Institusi: STITEK Bontang**
+# 📚 Portofolio Pemrograman Web - 202312028
 
----
+## 📋 Deskripsi Proyek
 
-## 📋 Deskripsi Project
+Repositori ini berisi kumpulan tugas dan pembelajaran mata kuliah **Pemrograman Web** yang mencakup 6 modul pembelajaran bertahap. Setiap modul dirancang untuk membangun pemahaman yang komprehensif tentang teknologi web modern, mulai dari HTML dasar hingga aplikasi web dinamis dengan PHP dan MySQL.
 
-Repository ini berisi kumpulan tugas dan project dari mata kuliah Pemrograman Web yang mencakup pembelajaran progresif dari HTML dasar hingga aplikasi web dinamis dengan PHP dan database. Setiap modul dirancang untuk membangun pemahaman yang komprehensif tentang teknologi web modern.
-
-## 🛠️ Teknologi yang Digunakan
-
-| Teknologi | Versi | Penggunaan |
-|-----------|-------|------------|
-| **HTML5** | Latest | Struktur dan markup halaman web |
-| **CSS3** | Latest | Styling, layout, dan responsive design |
-| **JavaScript** | ES6+ | Interaktivitas dan dynamic content |
-| **Bootstrap** | 5.3.3 | Framework CSS untuk responsive design |
-| **PHP** | 7.4+ | Server-side scripting dan backend logic |
-| **MySQL** | 8.0+ | Database management system |
-
-## 📁 Struktur Project
+## 📂 Struktur Folder
 
 ```
-Portofolio-Pemrograman-WEB-202312056/
-├── Modul-1/                    # HTML Fundamentals
-│   ├── tugas_modul_1.html     # Form pendaftaran mahasiswa
-│   └── STITEK Logo 2.png      # Asset logo kampus
-├── Modul-2/                    # CSS & Responsive Design
-│   ├── tugas_modul2.html      # HTML structure
-│   └── tugas_modul2.css       # CSS styling dengan grid layout
-├── Modul-3/                    # Bootstrap Framework
-│   ├── Tugas - Modul 3.html   # Company profile dengan Bootstrap
-│   └── assets/                # Image assets
-│       ├── tugas1.png
-│       ├── tugas2.png
-│       └── tugas3.png
-├── Modul-4/                    # JavaScript Programming
-│   └── Tugas.html             # E-commerce dengan JavaScript
-├── Modul-5/                    # PHP Fundamentals
-│   └── tugas.php              # Buku tamu digital dengan validasi
-├── Modul-6/                    # PHP & Database Integration
-│   └── Crud Toko Online/      # Aplikasi CRUD lengkap
-│       ├── index.php          # Halaman utama
-│       ├── tambah.php         # Form tambah produk
-│       ├── edit.php           # Form edit produk
-│       ├── hapus.php          # Fungsi hapus produk
-│       ├── koneksi_toko.php   # Konfigurasi database
-│       └── koneksi.txt        # Backup konfigurasi
-└── README.md                   # Dokumentasi project
+Portofolio-Pemrograman-Web-202312028/
+├── README.md                    # Dokumentasi utama proyek
+├── Modul1/                      # HTML Dasar
+│   ├── formulir_pendaftaran.html
+│   └── kampus.png
+├── Modul2/                      # Struktur HTML
+│   └── web.html
+├── Modul3/                      # Form HTML
+│   ├── Web_company.html
+│   ├── produk1.png
+│   ├── produk2.png
+│   └── produk3.png
+├── Modul4/                      # JavaScript Dasar
+│   ├── web_pemesanan.html
+│   ├── monitor1.jpg
+│   ├── monitor2.jpg
+│   ├── phone1.jpg
+│   ├── phone2.jpg
+│   ├── speaker1.jpg
+│   └── speaker2.jpg
+├── Modul5/                      # PHP Dasar
+│   └── buku_tamu_sederhana.php
+└── Modul6/                      # CRUD PHP + MySQL
+    ├── index.php
+    ├── koneksi.php
+    ├── tambah.html
+    ├── tambah.php
+    ├── edit.php
+    └── hapus.php
 ```
 
-## 🎯 Detail Modul Pembelajaran
+## 🎯 Detail Setiap Modul
 
-### 📝 Modul 1: HTML Fundamentals
-**File:** `Modul-1/tugas_modul_1.html`
+### 📝 Modul 1 - HTML Dasar
+**Tujuan**: Memahami struktur dasar HTML dan elemen-elemen fundamental
 
-**Deskripsi:** Formulir pendaftaran mahasiswa baru yang mendemonstrasikan penggunaan elemen HTML dasar.
+**File Utama**: `formulir_pendaftaran.html`
+- Implementasi form pendaftaran sederhana
+- Penggunaan elemen form dasar (input, select, textarea)
+- Integrasi gambar (kampus.png)
+- Validasi form menggunakan atribut HTML5
 
-**Fitur:**
-- Form validation dengan atribut `required`
-- Input types: text, email, radio, checkbox, select, textarea
-- Fieldset untuk grouping form elements
-- Inline CSS styling
-- External link integration
+**Teknologi**: HTML5, CSS inline
 
-**Konsep yang Dipelajari:**
-- Struktur HTML5 semantic
-- Form elements dan attributes
-- Basic styling dengan inline CSS
-- Accessibility considerations
+### 🏗️ Modul 2 - Struktur HTML
+**Tujuan**: Membangun struktur web yang terorganisir dan semantik
 
----
+**File Utama**: `web.html`
+- Implementasi struktur HTML semantik
+- Penggunaan header, nav, main, section, footer
+- Responsive design dengan CSS
+- Best practices untuk SEO
 
-### 🎨 Modul 2: CSS & Responsive Design
-**Files:** `Modul-2/tugas_modul2.html`, `Modul-2/tugas_modul2.css`
+**Teknologi**: HTML5, CSS3
 
-**Deskripsi:** Implementasi CSS Grid Layout dengan responsive design untuk berbagai ukuran layar.
+### 📄 Modul 3 - Form HTML
+**Tujuan**: Membuat form interaktif dan user-friendly
 
-**Fitur:**
-- CSS Grid Layout system
-- Responsive breakpoints (768px, 480px)
-- Custom color scheme dan typography
-- Mobile-first approach
+**File Utama**: `Web_company.html`
+- Form company profile dengan validasi
+- Galeri produk dengan gambar (produk1-3.png)
+- Input handling yang lebih kompleks
+- Styling form yang menarik
 
-**Konsep yang Dipelajari:**
-- CSS Grid vs Flexbox
-- Media queries untuk responsive design
-- CSS custom properties
-- Box model dan positioning
+**Teknologi**: HTML5, CSS3, Form Validation
 
----
+### ⚡ Modul 4 - JavaScript Dasar
+**Tujuan**: Menambahkan interaktivitas dengan JavaScript
 
-### 🚀 Modul 3: Bootstrap Framework
-**File:** `Modul-3/Tugas - Modul 3.html`
-
-**Deskripsi:** Company profile "BravoTech" menggunakan Bootstrap framework untuk rapid development.
-
-**Fitur:**
-- Responsive navigation dengan hamburger menu
-- Bootstrap grid system
-- Card components untuk product showcase
-- Table styling dengan Bootstrap classes
-- Footer dengan social media links
-
-**Konsep yang Dipelajari:**
-- Bootstrap component library
-- Utility classes dan spacing
-- Responsive grid system
-- Component customization
-
----
-
-### ⚡ Modul 4: JavaScript Programming
-**File:** `Modul-4/Tugas.html`
-
-**Deskripsi:** Aplikasi e-commerce "Toko Elektronik Cepat" dengan JavaScript interaktivity.
-
-**Fitur:**
-- Real-time clock display
-- Image slideshow dengan navigation
-- Dynamic product catalog
-- Form validation dan error handling
-- Shopping cart calculation dengan promo codes
-- Receipt generation
-
-**Konsep yang Dipelajari:**
-- DOM manipulation
+**File Utama**: `web_pemesanan.html`
+- Sistem pemesanan produk elektronik
+- Validasi form menggunakan JavaScript
+- Manipulasi DOM
 - Event handling
-- Array dan object manipulation
-- Form validation
-- Local storage (optional)
+- Galeri produk interaktif (monitor, phone, speaker)
 
----
+**Teknologi**: HTML5, CSS3, JavaScript (Vanilla)
 
-### 🔧 Modul 5: PHP Fundamentals
-**File:** `Modul-5/tugas.php`
+### 🔧 Modul 5 - PHP Dasar
+**Tujuan**: Memahami server-side programming dengan PHP
 
-**Deskripsi:** Buku tamu digital STITEK Bontang dengan server-side validation.
+**File Utama**: `buku_tamu_sederhana.php`
+- Implementasi buku tamu sederhana
+- Handling form submission
+- Session management
+- File handling untuk penyimpanan data
 
-**Fitur:**
-- Server-side form processing
-- Input validation dan sanitization
-- Error handling dan user feedback
-- Responsive design dengan custom CSS
-- XSS protection dengan `htmlspecialchars()`
+**Teknologi**: PHP, HTML5, CSS3
 
-**Konsep yang Dipelajari:**
-- PHP syntax dan variables
-- Form handling dengan `$_POST`
-- Input validation techniques
-- Security best practices
-- PHP dan HTML integration
+### 💾 Modul 6 - CRUD PHP + MySQL
+**Tujuan**: Membuat aplikasi web dinamis dengan database
 
----
+**File Utama**: 
+- `index.php` - Halaman utama dan tampilan data
+- `koneksi.php` - Konfigurasi database
+- `tambah.html` & `tambah.php` - Menambah data
+- `edit.php` - Mengubah data
+- `hapus.php` - Menghapus data
 
-### 🗄️ Modul 6: PHP & Database Integration
-**Directory:** `Modul-6/Crud Toko Online/`
+**Fitur**:
+- Create, Read, Update, Delete (CRUD)
+- Koneksi database MySQL
+- Validasi input
+- Error handling
 
-**Deskripsi:** Aplikasi CRUD (Create, Read, Update, Delete) untuk manajemen produk toko online.
+**Teknologi**: PHP, MySQL, HTML5, CSS3
 
-**Fitur:**
-- Database connection dengan MySQLi
-- Full CRUD operations
-- Data listing dengan table format
-- Form handling untuk input/edit
-- Confirmation dialogs untuk delete operations
-- Error handling untuk database operations
-
-**Files:**
-- `index.php` - Halaman utama dengan listing produk
-- `tambah.php` - Form tambah produk baru
-- `edit.php` - Form edit produk existing
-- `hapus.php` - Fungsi delete produk
-- `koneksi_toko.php` - Database configuration
-
-**Konsep yang Dipelajari:**
-- Database design dan normalization
-- SQL queries (SELECT, INSERT, UPDATE, DELETE)
-- PHP-MySQL integration
-- Security considerations untuk database
-- Error handling dan debugging
-
-## 🚀 Cara Menjalankan Project
+## 🚀 Cara Menjalankan Proyek
 
 ### Prerequisites
-- **Web Server:** Apache/Nginx (XAMPP, WAMP, atau LAMP)
-- **PHP:** Version 7.4 atau lebih tinggi
-- **MySQL:** Version 8.0 atau lebih tinggi
-- **Browser:** Chrome, Firefox, Safari, atau Edge (versi terbaru)
+- Web server (Apache/Nginx)
+- PHP 7.4 atau lebih baru
+- MySQL 5.7 atau lebih baru
+- Browser modern (Chrome, Firefox, Safari)
 
-### Setup Instructions
+### Setup Lingkungan Pengembangan
 
-#### 1. Clone Repository
-```bash
-git clone [repository-url]
-cd Portofolio-Pemrograman-WEB-202312028
+#### Menggunakan XAMPP (Recommended)
+1. Download dan install [XAMPP](https://www.apachefriends.org/)
+2. Jalankan Apache dan MySQL dari XAMPP Control Panel
+3. Clone repository ke folder `htdocs`:
+   ```bash
+   cd C:\xampp\htdocs
+   git clone [repository-url]
+   ```
+
+#### Menggunakan WAMP/MAMP
+1. Install WAMP (Windows) atau MAMP (Mac)
+2. Jalankan server
+3. Copy project ke folder `www`
+
+## 📈 Progres Pembelajaran yang Diperoleh
+
+### 🎯 Kompetensi Teknis
+
+#### HTML & CSS
+- ✅ Struktur HTML semantik
+- ✅ Form handling dan validasi
+- ✅ Responsive design
+- ✅ CSS styling dan layout
+- ✅ Best practices untuk accessibility
+
+#### JavaScript
+- ✅ DOM manipulation
+- ✅ Event handling
+- ✅ Form validation
+- ✅ Basic programming concepts
+- ✅ User interaction design
+
+#### PHP
+- ✅ Server-side programming
+- ✅ Session management
+- ✅ File handling
+- ✅ Database connectivity
+- ✅ Security best practices
+
+#### Database
+- ✅ MySQL database design
+- ✅ CRUD operations
+- ✅ SQL queries
+- ✅ Data validation
+- ✅ Error handling
+
+### 🧠 Soft Skills
+- ✅ Problem solving
+- ✅ Debugging techniques
+- ✅ Code organization
+- ✅ Documentation writing
+- ✅ Project management
+
+### 📊 Statistik Pembelajaran
+- **Total Modul**: 6
+- **Total File**: 20
+- **Bahasa Pemrograman**: HTML, CSS, JavaScript, PHP
+- **Database**: MySQL
+- **Framework**: Vanilla (No Framework)
+- **Durasi Pembelajaran**: 1 Semester
+
+## 🔮 Pengembangan Selanjutnya
+
+### 🎯 Rencana Jangka Pendek
+- [ ] Implementasi framework CSS (Bootstrap/Tailwind)
+- [ ] Integrasi dengan JavaScript framework (React/Vue)
+- [ ] Implementasi REST API
+- [ ] Unit testing
+- [ ] Code refactoring
+
+### 🚀 Rencana Jangka Menengah
+- [ ] Implementasi authentication dan authorization
+- [ ] File upload dan management
+- [ ] Email integration
+- [ ] Payment gateway integration
+- [ ] Progressive Web App (PWA)
+
+### 🌟 Rencana Jangka Panjang
+- [ ] Microservices architecture
+- [ ] Cloud deployment (AWS/Azure)
+- [ ] CI/CD pipeline
+- [ ] Performance optimization
+- [ ] Scalability improvements
+
+### 💡 Ide Pengembangan
+- **E-commerce Platform**: Mengembangkan sistem CRUD menjadi platform e-commerce lengkap
+- **Content Management System**: Membuat CMS sederhana untuk blog
+- **Learning Management System**: Platform pembelajaran online
+- **Portfolio Website**: Website portfolio profesional
+
+## 📝 Catatan
+
+### ⚠️ Penting
+- Pastikan server web berjalan sebelum mengakses file PHP
+- Backup database secara berkala
+- Gunakan HTTPS untuk production
+- Validasi input pengguna untuk keamanan
+
+### 🔧 Troubleshooting
+
+#### Error Database Connection
+```
+Solusi:
+1. Cek service MySQL berjalan
+2. Verifikasi kredensial database
+3. Pastikan database exists
+4. Cek port MySQL (default: 3306)
 ```
 
-#### 2. Setup Web Server
-- Install XAMPP/WAMP/LAMP
-- Start Apache dan MySQL services
-- Copy project folder ke `htdocs` (XAMPP) atau `www` (WAMP)
-
-#### 3. Database Setup (untuk Modul 6)
-```sql
--- Buat database
-CREATE DATABASE db_toko;
-
--- Gunakan database
-USE db_toko;
-
--- Buat tabel produk
-CREATE TABLE produk (
-    id_produk INT AUTO_INCREMENT PRIMARY KEY,
-    nama_produk VARCHAR(100) NOT NULL,
-    harga DECIMAL(10,2) NOT NULL,
-    stok INT NOT NULL
-);
-
--- Insert sample data
-INSERT INTO produk (nama_produk, harga, stok) VALUES
-('Laptop Gaming', 15000000.00, 5),
-('Mouse Wireless', 250000.00, 20),
-('Keyboard Mechanical', 800000.00, 15);
+#### Error PHP
+```
+Solusi:
+1. Cek PHP version compatibility
+2. Enable error reporting
+3. Cek file permissions
+4. Restart web server
 ```
 
-#### 4. Konfigurasi Database
-Edit file `Modul-6/Crud Toko Online/koneksi_toko.php`:
-```php
-<?php
-$servername = "localhost";
-$username = "root";        // Sesuaikan dengan username MySQL Anda
-$password = "";            // Sesuaikan dengan password MySQL Anda
-$dbname = "db_toko";
+### 📚 Resource Pembelajaran
+- [MDN Web Docs](https://developer.mozilla.org/)
+- [W3Schools](https://www.w3schools.com/)
+- [PHP Documentation](https://www.php.net/docs.php)
+- [MySQL Documentation](https://dev.mysql.com/doc/)
 
-$conn = new mysqli($servername, $username, $password, $dbname);
+## 📞 Kontak
 
-if ($conn->connect_error) {
-    die("Koneksi gagal: " . $conn->connect_error);
-}
-?>
-```
+👤 **Nama**: Elina Nurhaliza
+📧 **Email**: elinanurhaliza50@example.com
+🎓 **NIM**: 202312028
+🏫 **Universitas**: STITEK BONTANG
+🐙 **GitHub**: https://github.com/atlantisforyou
 
-### 🌐 Akses Project
+### 📬 Feedback & Kolaborasi
+Terima kasih telah mengunjungi repositori ini! Jika Anda memiliki:
+- 🐛 Bug report
+- 💡 Saran perbaikan
+- 🤝 Kolaborasi
+- ❓ Pertanyaan
 
-| Modul | URL | Deskripsi |
-|-------|-----|-----------|
-| Modul 1 | `http://localhost/[project-folder]/Modul-1/tugas_modul_1.html` | Form Pendaftaran |
-| Modul 2 | `http://localhost/[project-folder]/Modul-2/tugas_modul2.html` | CSS Grid Layout |
-| Modul 3 | `http://localhost/[project-folder]/Modul-3/Tugas - Modul 3.html` | Bootstrap Company Profile |
-| Modul 4 | `http://localhost/[project-folder]/Modul-4/Tugas.html` | JavaScript E-commerce |
-| Modul 5 | `http://localhost/[project-folder]/Modul-5/tugas.php` | PHP Buku Tamu |
-| Modul 6 | `http://localhost/[project-folder]/Modul-6/Crud Toko Online/` | PHP CRUD Application |
-
-## 📱 Responsive Design
-
-Semua project telah dioptimasi untuk berbagai ukuran layar:
-
-- **Desktop:** ≥ 1024px
-- **Tablet:** 768px - 1023px  
-- **Mobile:** ≤ 767px
-
-## 🔒 Security Features
-
-- **Input Validation:** Client-side dan server-side validation
-- **XSS Protection:** Penggunaan `htmlspecialchars()` untuk sanitasi input
-- **SQL Injection Prevention:** Prepared statements (dapat ditingkatkan)
-- **CSRF Protection:** Token validation (untuk pengembangan lanjutan)
-
-## 🎨 Design Patterns
-
-- **Mobile-First Approach:** Responsive design dimulai dari mobile
-- **Progressive Enhancement:** Fitur ditambahkan secara bertahap
-- **Separation of Concerns:** HTML, CSS, dan JavaScript terpisah
-- **DRY Principle:** Don't Repeat Yourself dalam kode
-
-## 📈 Learning Outcomes
-
-Setelah menyelesaikan semua modul, mahasiswa mampu:
-
-1. **Frontend Development:**
-   - Membuat struktur HTML semantik
-   - Implementasi CSS modern dengan Grid/Flexbox
-   - Menggunakan framework CSS (Bootstrap)
-   - Programming JavaScript untuk interaktivitas
-
-2. **Backend Development:**
-   - PHP programming fundamentals
-   - Database integration dengan MySQL
-   - Server-side validation dan security
-
-3. **Full-Stack Integration:**
-   - Menggabungkan frontend dan backend
-   - Database design dan management
-   - Deployment dan hosting considerations
-
-## 🤝 Contributing
-
-Untuk kontribusi atau perbaikan:
-
-1. Fork repository ini
-2. Buat branch baru (`git checkout -b feature/improvement`)
-3. Commit perubahan (`git commit -am 'Add new feature'`)
-4. Push ke branch (`git push origin feature/improvement`)
-5. Buat Pull Request
-
-## 📞 Contact
-
-**Sardilla**  
-- Email: dillasardilla387@gmail.com
-- Institution: STITEK Bontang
-- NIM: 202312071
-
-## 📄 License
-
-Project ini dibuat untuk keperluan akademik mata kuliah Pemrograman Web di STITEK Bontang.
+Silakan hubungi melalui kontak di atas atau buat issue di repositori ini.
 
 ---
 
-**© 2025 Sardilla - STITEK Bontang**
+**💧 Watermark**
+
+```
+╔══════════════════════════════════════════════════════════════╗
+║                   PORTOFOLIO PEMROGRAMAN WEB                 ║
+║                        NIM: 202312028                        ║
+║                     Created with ❤️ by                       ║
+║                    Elina Nurhaliza                           ║
+║                                                              ║
+║              © 2025 - Tugas Mata Kuliah                      ║
+║                  Pemrograman Web                             ║
+║                                                              ║
+║    "Learning is a treasure that will follow its owner        ║
+║                    everywhere" - Chinese Proverb             ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+---
+
+### 🌟 Acknowledgments
+
+- Terima kasih kepada **Dosen Pengampu** atas bimbingan dan pembelajaran
+- Terima kasih kepada **Teman-teman Kelas** atas diskusi dan kolaborasi
+- Terima kasih kepada **Komunitas Open Source** atas resource dan tools yang tersedia
+
+### 📄 License
+
+Project ini dibuat untuk keperluan pembelajaran dan tidak dimaksudkan untuk penggunaan komersial.
+
+---
+
+**🔍 Last Updated**: 15 Juli 2025  
+**📊 Version**: 1.0.0  
+**🎯 Status**: Completed ✅
